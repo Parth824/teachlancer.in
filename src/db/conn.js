@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 mongoose.set("strictQuery", true)
 
-mongoose.connect("mongodb://127.0.0.1:27017/teach_lancer").
+mongoose.connect("mongodb+srv://admin:Test@123@cluster0.y4xoh6o.mongodb.net").
     then(() => {
         console.log("Database Connected!")
         console.log("=========================================================================");
